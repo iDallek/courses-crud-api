@@ -2,9 +2,9 @@
   "name": "courses-api-json-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "db.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "json-server --id idcurso --watch db/db.json"
   },
   "keywords": [],
   "author": "",
