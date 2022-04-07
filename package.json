@@ -4,12 +4,15 @@
   "description": "",
   "main": "db.json",
   "scripts": {
-    "start": "json-server --id idcurso --watch db/db.json"
+    "start": "json-server --id idcurso --watch db/db.json",
+    "start:filled": "json-server --id idcurso --watch db/filledDb.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.17.0"
+    "@faker-js/faker": "^6.1.2",
+    "json-server": "^0.17.0",
+    "lodash": "^4.17.21"
   }
 }
