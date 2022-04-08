@@ -4,8 +4,8 @@
   "description": "",
   "main": "db.json",
   "scripts": {
-    "start": "json-server --id idcurso --watch db/db.json",
-    "start:filled": "json-server --id idcurso --watch db/filledDb.js"
+    "start": "json-server --id idcurso --watch db/db.json --port 3004",
+    "start:filled": "json-server --id idcurso --watch db/filledDb.js --port 3004"
   },
   "keywords": [],
   "author": "",
