@@ -6,7 +6,8 @@ module.exports = () => {
 
     return {
         curso: _.times(5, (n) => ({
-            idcurso: n + 1,
+            id: n + 1,
+            idcurso: n + 122,
             ds_titulo: faker.lorem.word(lengthCourseTitle),
             ds_descricao: faker.lorem.sentence(),
         }))
